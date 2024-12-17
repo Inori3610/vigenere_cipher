@@ -69,6 +69,8 @@ Vanila output : `Encode Character : OVNLQBPVT EOEGTNH | char lenght : 17`
 
 Non vanila output : `Encode Character : OV$LQ2PVT 5O57TN8 | char lenght : 17`
 
+P/s : sorry for bad english and this simple and non optimalize code
+
 
 
 
