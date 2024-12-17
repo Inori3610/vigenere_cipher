@@ -24,7 +24,7 @@ Enter character : attacking tonight
 Enter Key : oculorhinolaryngology
 --------------------------------------------------------------
 ```
-Output
+Output :
 ```
 --------------------------------------------------------------
 Character        : ATTACKING TONIGHT | Character lenght :  17
@@ -47,7 +47,7 @@ Enter character : OVNLQBPVT EOEGTNH
 Enter Key : OCULORHINOLARYNGOLOGY
 --------------------------------------------------------------
 ```
-Output
+Output :
 ```
 --------------------------------------------------------------
 Character        : OVNLQBPVT EOEGTNH | Character lenght :  17
@@ -59,6 +59,16 @@ Encode Number    : [0, 19, 19, 0, 2, 10, 8, 13, 6, '_', 19, 14, 13, 8, 6, 7, 19]
 Encode Character : ATTACKING TONIGHT | char lenght : 17
 --------------------------------------------------------------
 ```
+**Different bettween vanila and non vanila**
+---
+Basicly vanila doesn't have numbers and special characters
+
+With the same example : character `attacking tonight` and key `oculorhinolaryngology`
+
+Vanila output : `Encode Character : OVNLQBPVT EOEGTNH | char lenght : 17`
+
+Non vanila output : `Encode Character : OV$LQ2PVT 5O57TN8 | char lenght : 17`
+
 
 
 
