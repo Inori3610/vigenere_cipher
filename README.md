@@ -13,6 +13,8 @@
 
   Source: (https://en.wikipedia.org/wiki/Vigen%C3%A8re_cipher#Cryptanalysis)
 
+  Anyway you can use this to make secure password, bla, bla 
+  
 **Encrypt**
 ---
 Enter your character (alphabet)
