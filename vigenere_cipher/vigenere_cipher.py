@@ -43,8 +43,8 @@ for i in range(len(char_need_encode)):
         encode_number.append(char_number[i]+final_key[i])
         encode_char += abc[(char_number[i]+final_key[i])]
     elif char_number[i] + final_key[i] >= 26+25:
-        encode_number.append((char_number[i]+final_key[i])%26+25)  # 26 alphabet + 25 special characters
-        encode_char += abc[(char_number[i]+final_key[i])%26+25]
+        encode_number.append((char_number[i]+final_key[i])%(26+25))  # 26 alphabet + 25 special characters
+        encode_char += abc[(char_number[i]+final_key[i])%(26+25)]
 
 # Result
 print (len(abc))
